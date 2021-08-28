@@ -120,9 +120,9 @@ You’ll need to complete the following tasks in each of these back-end files:
 
 	* `typeDefs.js`: Define the necessary `Query` and `Mutation` types:
 
-		* `Query` type:
+		* `Query` type: (DONE)
 
-			* `me`: Which returns a `User` type.
+			* `me`: Which returns a `User` type. (DONE)
 		
 		* `Mutation` type:
 
@@ -130,9 +130,9 @@ You’ll need to complete the following tasks in each of these back-end files:
 
 			* `addUser`: Accepts a username, email, and password as parameters; returns an `Auth` type.
 
-			* `saveBook`: Accepts a book author's array, description, title, bookId, image, and link as parameters; returns a `User` type. (Look into creating what's known as an `input` type to handle all of these parameters!)
+			* `saveBook`: Accepts a book author's array, description, title, bookId, image, and link as parameters; returns a `User` type. (Look into creating what's known as an `input` type to handle all of these parameters!) (IN PROGRESS! WILL REVISIT)
 
-			* `removeBook`: Accepts a book's `bookId` as a parameter; returns a `User` type.
+			* `removeBook`: Accepts a book's `bookId` as a parameter; returns a `User` type. (DONE)
 			
 		* `User` type:
 
@@ -146,7 +146,7 @@ You’ll need to complete the following tasks in each of these back-end files:
 
 			* `savedBooks` (This will be an array of the `Book` type.)
 
-		* `Book` type:
+		* `Book` type: (IN PROGRESS)
 
 			* `bookId` (Not the `_id`, but the book's `id` value returned from Google's Book API.)
 
@@ -160,7 +160,7 @@ You’ll need to complete the following tasks in each of these back-end files:
 
 			* `link`
 
-		* `Auth` type:
+		* `Auth` type: (DONE)
 
 			* `token`
 
