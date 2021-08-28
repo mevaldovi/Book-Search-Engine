@@ -11,9 +11,9 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 const server = new ApolloServer({
-  typeDefs,
-  resolvers,
-  context: authMiddleware,
+  typeDefs, //right now, don't exist; need to create a schemas folder
+  resolvers, // see above. Need a schemas folder
+  context: authMiddleware, //also will need to create a seeders folder
 });
 
 server.applyMiddleware({ app });
@@ -22,11 +22,11 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../client/build')));
+  app.use(express.static(path.join(__dirname, '../client/build'))); //there's no build file in the client??
 }
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+  res.sendFile(path.join(__dirname, '../client/build/index.html')); //see above. Very confused.
 });
 
 db.once('open', () => {
