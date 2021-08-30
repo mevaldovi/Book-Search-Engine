@@ -55,11 +55,12 @@ const SearchBooks = () => {
   };
 
   // create function to handle saving a book to our database
-  const [handleSaveBook, {error}] = useMutation(SAVE_BOOK);
+  const [saveBook, {error}] = useMutation(SAVE_BOOK);
   
 
-  // const handleSaveBook = async (bookId) => {//HERE use 'useMutation' hook to handle the 'SAVE_BOOK' mutation
-  //   // find the book in `searchedBooks` state by the matching id
+  const handleSaveBook = async (bookId) => {
+    //HERE use 'useMutation' hook to handle the 'SAVE_BOOK' mutation
+   // find the book in `searchedBooks` state by the matching id
     const bookToSave = searchedBooks.find((book) => book.bookId === bookId);
 
     // get token
@@ -71,6 +72,7 @@ const SearchBooks = () => {
 
     try {
       const response = await saveBook(bookToSave, token);
+
 
       if (!response.ok) {
         throw new Error('something went wrong!');
@@ -145,6 +147,6 @@ const SearchBooks = () => {
       </Container>
     </>
   );
-
+        };
 
 export default SearchBooks;

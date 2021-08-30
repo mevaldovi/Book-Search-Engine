@@ -199,7 +199,7 @@ Additionally, you’ll need to complete the following tasks in each of these fro
 
 	* Instead, use the `useQuery()` Hook to execute the `GET_ME` query on load and save it to a variable named `userData`. (DONE..to the best of my ability)
 
-	* Use the `useMutation()` Hook to execute the `REMOVE_BOOK` mutation in the `handleDeleteBook()` function instead of the `deleteBook()` function that's imported from `API` file. (Make sure you keep the `removeBookId()` function in place!)
+	* Use the `useMutation()` Hook to execute the `REMOVE_BOOK` mutation in the `handleDeleteBook()` function instead of the `deleteBook()` function that's imported from `API` file. (Make sure you keep the `removeBookId()` function in place!) (DONE)
 
 * `SignupForm.js`: Replace the `addUser()` functionality imported from the `API` file with the `ADD_USER` mutation functionality.
 
