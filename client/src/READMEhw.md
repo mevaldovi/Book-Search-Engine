@@ -29,7 +29,7 @@ HTML, CSS, JavaScript, Git & Heroku.
 [Heroku](deployed Heroku app link goes here). 
 
 # Usage
-Simply open the application, click any of the links to check out my latest stuff, and have fun reading!
+
 # License
 None at this time.
 # Contact
