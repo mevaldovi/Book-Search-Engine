@@ -12,7 +12,7 @@ const typeDefs = gql`
 /*MIGHT have to go ahead and change all these Book keys if routes in resolvers.js don't run*/
   type Book {
     bookId: ID
-    bookAuthor: [String]!
+    authors: [String]!
     description: String
     title: String
     image: String
@@ -35,7 +35,7 @@ const typeDefs = gql`
   type Mutation {
     addUser(username: String!, email: String!, password: String!): Auth
     loginUser(email: String!, password: String!): Auth
-    saveBook(bookAuthor: [String]!, description: String, title: String, image: String, link: String): Book
+    saveBook(authors: [String]!, description: String, title: String, image: String, link: String): Book
     removeBook(bookId: ID!): User
   }
 `;
