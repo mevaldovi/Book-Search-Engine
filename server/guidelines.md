@@ -171,17 +171,17 @@ You’ll need to complete the following tasks in each of these back-end files:
 
 You'll need to create the following front-end files:
 
-* `queries.js`: This will hold the query `GET_ME`, which will execute the `me` query set up using Apollo Server.
+* `queries.js`: This will hold the query `GET_ME`, which will execute the `me` query set up using Apollo Server. (DONE)
 
 * `mutations.js`:
 
-	* `LOGIN_USER` will execute the `loginUser` mutation set up using Apollo Server.
+	* `LOGIN_USER` will execute the `loginUser` mutation set up using Apollo Server. (DONE)
 
-	* `ADD_USER` will execute the `addUser` mutation.
+	* `ADD_USER` will execute the `addUser` mutation. (DONE)
 
-	* `SAVE_BOOK` will execute the `saveBook` mutation.
+	* `SAVE_BOOK` will execute the `saveBook` mutation. (DONE)
 
-	* `REMOVE_BOOK` will execute the `removeBook` mutation.
+	* `REMOVE_BOOK` will execute the `removeBook` mutation. (DONE)
 
 Additionally, you’ll need to complete the following tasks in each of these front-end files:
 

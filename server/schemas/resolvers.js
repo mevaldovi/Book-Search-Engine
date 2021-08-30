@@ -55,10 +55,10 @@ const resolvers = {
 
       return { token, user };
     },
-    addBook: async (parent, { bookText }, context) => {
+    addBook: async (parent, { description }, context) => {
       if (context.user) {
         const book = await Book.create({
-          bookText,
+          description,
           bookAuthor: context.user.username,
         });
 
