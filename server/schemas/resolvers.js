@@ -34,11 +34,13 @@ const resolvers = {
 //defining Mutation funcionality (aka "post/add/update requests") to work with Models.js
   Mutation: {
     addUser: async (parent, { username, email, password }) => {
+      console.log("signup");
       const user = await User.create({ username, email, password });
       const token = signToken(user);
       return { token, user };
     },
     login: async (parent, { email, password }) => {
+      console.log("backend");
       const user = await User.findOne({ email });
 
       if (!user) {
@@ -55,7 +57,7 @@ const resolvers = {
 
       return { token, user };
     },
-    addBook: async (parent, { description }, context) => {
+    saveBook: async (parent, { description }, context) => {
       if (context.user) {
         const book = await Book.create({
           description,
