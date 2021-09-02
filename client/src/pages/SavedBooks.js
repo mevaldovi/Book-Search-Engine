@@ -14,7 +14,7 @@ const SavedBooks = () => {
   // use this to determine if `useEffect()` hook needs to run again
 
   // const userDataLength = data?.me || {};
-  const [deleteBook, { error }] = useMutation(REMOVE_BOOK);
+  const [removeBook, { error }] = useMutation(REMOVE_BOOK);
   const {userData, setUserData} = useQuery(GET_ME)
   const userDataLength = Object.keys(userData).length;
 
@@ -57,7 +57,7 @@ const SavedBooks = () => {
     }
 
     try {
-      const { data } = await deleteBook({
+      const { data } = await removeBook({
         variables: { bookId },
       });
 
