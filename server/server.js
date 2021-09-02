@@ -1,14 +1,13 @@
 const express = require('express');
-const { ApolloServer } = require('apollo-server-express');
 const path = require('path');
-
+const db = require('./config/connection'); //folder exists
+const { ApolloServer } = require('apollo-server-express');
 const { typeDefs, resolvers } = require('./schemas'); //folder exists
 const { authMiddleware } = require('./utils/auth'); //folder exists
 
-const db = require('./config/connection'); //folder exists
-
 const PORT = process.env.PORT || 3001;
 const app = express();
+
 //setes up new ApolloServer to deal with graphQL content
 const server = new ApolloServer({
   typeDefs, //right now, don't exist; need to create a schemas folder

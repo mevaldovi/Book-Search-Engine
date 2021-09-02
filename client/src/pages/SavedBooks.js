@@ -69,7 +69,7 @@ const SavedBooks = () => {
 
       //upon success ,remove book's id from localStorage.
       removeBookId(bookId);
-      setUserData(updatedUser);
+      setUserData(data);
     } catch (err) {
       console.error(err);
     }
