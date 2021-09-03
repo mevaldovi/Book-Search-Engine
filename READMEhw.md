@@ -1,7 +1,7 @@
 # Homework17_bookSearch
 
 ## Description
-Further streamlining my current professional portfolio.
+Simplified  & user-friendly book search.
 
 ## Technology 
 ReactJS, JavaScript, graphql, miscellaneous node packages.
@@ -29,11 +29,15 @@ ReactJS, JavaScript, graphql, miscellaneous node packages.
 [Heroku](deployed Heroku app link goes here). 
 
 # Usage
+Once the page loads, simply create an account and add any books you want to save to your account.
 
+If the Heroku link does not work, simply clone down this repo, open a terminal in the very root of this project, and type "npm run develop".
 # License
 None at this time.
 # Contact
 [My github](https://github.com/mevaldovi).
+
+
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 # Agknowledgments
 
