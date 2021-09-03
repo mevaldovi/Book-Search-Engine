@@ -26,7 +26,7 @@ ReactJS, JavaScript, graphql, miscellaneous node packages.
 [Agnowledgments](https://github.com/mevaldovi/Homework17_bookSearch#Agknowledgments)
 
 # Installation
-[Heroku](deployed Heroku app link goes here). 
+[Heroku demo](https://book-serach-engine-mv.herokuapp.com/). 
 
 # Usage
 Once the page loads, simply create an account and add any books you want to save to your account.
