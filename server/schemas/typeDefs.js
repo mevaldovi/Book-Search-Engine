@@ -9,35 +9,43 @@ const typeDefs = gql`
     bookCount: Int!
     savedBooks: [Book]!
   }
-`;
-//on line 5, change 'String' back to 'ID' if your finding that its throwing errors. should be fine though.
 
-//   type Book {
-//     bookId: String
-//     authors: [String]!
-//     description: String
-//     title: String
-//     image: String
-//     link: String
-//   }
 
-//   type Auth {
-//     token: ID!
-//     user: User
-//   }
 
-//   type Query {
-//     users: [User]
-//     user(username: String!): User
-//     books(username: String): [Book]
-//     book(bookId: ID!): Book
-//     me: User
-//   }
+  type Book {
+    bookId: String
+    authors: [String]
+    description: String
+    title: String
+    image: String
+    link: String
+  }
 
-`type Mutation {
+  type Auth {
+    token: ID!
+    user: User
+  }
+
+  input bookInput {
+    bookId: String
+    authors: [String]
+    description: String
+    title: String
+    image: String
+    link: String
+  }
+  type Query {
+    users: [User]
+    user(username: String!): User
+    books(username: String): [Book]
+    book(bookId: ID!): Book
+    me: User
+  }
+
+type Mutation {
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
-    saveBook(authors: [String]!, description: String, title: String, image: String, link: String): User
+    saveBook(input: bookInput!): User
     removeBook(bookId: String!): User
   }
 `;
