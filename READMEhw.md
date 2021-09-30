@@ -37,7 +37,7 @@ If the Heroku link does not work, simply clone down this repo, open a terminal i
 # License
 None at this time.
 # Contact
-[My github](https://github.com/mevaldovi).
+[Github](https://github.com/mevaldovi).
 
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
