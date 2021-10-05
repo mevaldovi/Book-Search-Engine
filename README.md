@@ -1,4 +1,4 @@
-# Homework17_bookSearch
+# Book-Search-Engine
 [Heroku demo](https://book-serach-engine-mv.herokuapp.com/). 
 
 
@@ -12,23 +12,23 @@ Simplified  & user-friendly book search.
 ReactJS, JavaScript, graphql, miscellaneous node packages.
 
 # Table of Contents
-[Description](https://github.com/mevaldovi/Homework17_bookSearch#Description)
+[Description](https://github.com/mevaldovi/Book-Search-Engine#Description)
 
-[Technology](https://github.com/mevaldovi/Homework17_bookSearch#Technology)
+[Technology](https://github.com/mevaldovi/Book-Search-Engine#Technology)
 
-[Installation](https://github.com/mevaldovi/Homework17_bookSearch#Installation)
-
-
-[Usage](https://github.com/mevaldovi/Homework17_bookSearch#Usage)
+[Installation](https://github.com/mevaldovi/Book-Search-Engine#Installation)
 
 
-[License](https://github.com/mevaldovi/Homework17_bookSearch#License)
+[Usage](https://github.com/mevaldovi/Book-Search-Engine#Usage)
 
 
-[Contact Info](https://github.com/mevaldovi/Homework17_bookSearch#Contact)
+[License](https://github.com/mevaldovi/Book-Search-Engine#License)
 
 
-[Agnowledgments](https://github.com/mevaldovi/Homework17_bookSearch#Agknowledgments)
+[Contact Info](https://github.com/mevaldovi/Book-Search-Engine#Contact)
+
+
+[Agnowledgments](https://github.com/mevaldovi/Book-Search-Engine#Agknowledgments)
 
 # Installation
 
