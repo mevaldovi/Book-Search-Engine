@@ -1,5 +1,5 @@
 # Book-Search-Engine
-Deployed app: [https://book-serach-engine-mv.herokuapp.com](https://book-serach-engine-mv.herokuapp.com). 
+Deployed app: [https://book-serach-engine-mv.herokuapp.com](https://book-serach-engine-mv.herokuapp.com)
 
 
 <img width="761" alt="Book-Search-engine" src="https://user-images.githubusercontent.com/83307023/135496670-a5a59f06-a844-4b1f-8ef8-337b908b3947.PNG">
@@ -52,7 +52,7 @@ If the Heroku link does not work, simply clone down this repo, open a terminal i
 # License
 None at this time.
 # Contact
-Github: [https://github.com/mevaldovi](https://github.com/mevaldovi).
+Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
 
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
