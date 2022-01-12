@@ -39,11 +39,11 @@ ReactJS, JavaScript, graphql, miscellaneous node packages.
 
 - Set up MongoDB database
 
-- cd src
+- cd src || cd client
 
 - npm start
 
-- navigate to https://localhost:3000 if app does not start
+- navigate to https://localhost:3000 
 
 # Usage
 Once the page loads, simply create an account and add any books you want to save to your account.
