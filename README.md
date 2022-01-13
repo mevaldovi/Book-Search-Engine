@@ -35,11 +35,7 @@ ReactJS, JavaScript, graphql, miscellaneous node packages.
 
 - npm install
 
-- Set up Apollo Server & create an Apollo Provider
-
-- Set up MongoDB database
-
-- cd src || cd client
+- cd client
 
 - npm start
 
