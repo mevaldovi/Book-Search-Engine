@@ -39,19 +39,20 @@ ReactJS, JavaScript, graphql, miscellaneous node packages.
 
 - npm start
 
-- navigate to https://localhost:3001 
+- automatically navigate to https://localhost:3001 
 
 # Usage
-Once the page loads, simply create an account and add any books you want to save to your account.
-
-If the Heroku link does not work, simply clone down this repo, open a terminal in the very root of this project, and type "npm run develop".
+See Installation. 
 # License
 None at this time.
 # Contact
+
+If there are any issues running this application locally, please reach out to me:
+
 Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
 
+Email: [mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 
-Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 # Agknowledgments
 
 Many thanks to [Deannapi](https://github.com/deannapi/book-search-engine) and [Izabela Cloud](https://github.com/izabelacloud)for letting me to use their javascript in "pages" to copy and reference.
