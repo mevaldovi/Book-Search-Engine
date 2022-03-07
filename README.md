@@ -31,15 +31,18 @@ ReactJS, JavaScript, graphql, miscellaneous node packages.
 [Agnowledgments](https://github.com/mevaldovi/Book-Search-Engine#Agknowledgments)
 
 # Installation
-- Clone this repo
 
-- npm install
+Bold text indicates commands in the terminal; italicized text indicates steps to take
 
-- cd client
+- _Clone this repo_
 
-- npm start
+- **npm install**
 
-- automatically navigate to https://localhost:3001 
+- **cd client**
+
+- **npm start**
+
+- _Development server should automatically direct user to https://localhost:3001_
 
 # Usage
 See Installation. 
