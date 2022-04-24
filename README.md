@@ -9,7 +9,7 @@ Deployed app: [https://book-serach-engine-mv.herokuapp.com](https://book-serach-
 Simplified  & user-friendly book search.
 
 ## Technology 
-[<img alt="medium" src="	https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />](https://reactjs.org/docs/getting-started.html)
+[<img alt="medium" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />](https://reactjs.org/docs/getting-started.html)
 
 [<img alt="medium" src="https://img.shields.io/badge/Apollo%20GraphQL-311C87?&style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white" />](https://graphql.org/learn/)
 
